@@ -10,15 +10,15 @@ Version: 3.5.3.1710183432
 Updated: 2024-03-11 18:57:12
 
 */
-root {
-  margin: 0;
-  padding: 0;
+
+body {
+  max-width: 1440px;
+  margin: auto;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  max-width: 1440px;
   height: 80px;
 }
 
@@ -49,11 +49,11 @@ header {
 #menu-item-88 {
   display: flex;
   align-items: center;
-  transition: transform 0.3s ease;
+  line-height: 19px;
 }
 
 #menu-item-88 :hover {
-  transform: scale(0.9) translateX(20px);
+  font-size: 13px;
 }
 
 #menu-item-87 {
@@ -74,10 +74,101 @@ header {
   height: 80px;
 }
 
-footer a {
-  text-align: center;
+#content-wrap {
+  max-width: 100%;
 }
 
-footer a:hover {
-  color: black;
+.hero-container {
+  border-radius: 0% 0% 50% 50% / 0% 0% 7% 7%;
+  box-shadow: 0px 10px 0px 0px #e3d9d0;
+  padding-top: 100px;
+  margin: 0;
+}
+
+#primary {
+  padding: 0;
+  border: none;
+}
+
+.image-hero-container {
+  display: flex;
+  justify-content: center;
+}
+
+.left-leaf {
+  transform: translate(172px, 120px);
+}
+
+.central-drink {
+  z-index: 1;
+}
+
+.right-leaf {
+  transform: translate(-182px, 120px);
+}
+
+.description-container {
+  padding: 80px 0;
+}
+
+.description-container h3 {
+  margin-bottom: 50px;
+}
+
+.taste-container {
+  padding-top: 50px;
+  border-radius: 0% 0% 50% 50% / 0% 0% 2% 2%;
+}
+
+.taste-container h4 {
+  margin: 0;
+}
+
+.img-taste {
+  margin: 20px 10px !important;
+}
+
+.img-taste p {
+  line-height: 57px;
+}
+
+.taste-btn-container {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.taste-btn {
+  padding: 0 35px;
+  background-color: #e0b9b4;
+  border-radius: 7px;
+}
+
+.taste-btn:hover {
+  background-color: #c02e44;
+}
+
+.comments-container {
+  padding-top: 100px;
+}
+
+.person-comments {
+  padding: 100px 150px;
+}
+
+.img-comments {
+  padding-left: 50px;
+}
+
+.name-and-comments {
+  width: 250px;
+  padding-left: 15px;
+}
+
+.comments {
+  line-height: 19px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
