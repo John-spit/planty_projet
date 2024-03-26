@@ -8,9 +8,7 @@
 ?>
 
 <footer>
-	<div class="my-footer">
-		<p>Mentions légales</p>
-	</div>
+		<a href="/"><p>Mentions légales</p></a>
 </footer>
 
 <?php wp_footer(); ?>

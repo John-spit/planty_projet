@@ -15,7 +15,7 @@ body {
   max-width: 1440px;
   margin: auto;
 }
-
+/* Header */
 header {
   display: flex;
   justify-content: space-between;
@@ -73,11 +73,13 @@ header {
   width: 100%;
   height: 80px;
 }
+/* Header */
 
 #content-wrap {
   max-width: 100%;
 }
 
+/* Hero */
 .hero-container {
   border-radius: 0% 0% 50% 50% / 0% 0% 7% 7%;
   box-shadow: 0px 10px 0px 0px #e3d9d0;
@@ -106,7 +108,9 @@ header {
 .right-leaf {
   transform: translate(-182px, 120px);
 }
+/* Hero */
 
+/* Description container */
 .description-container {
   padding: 80px 0;
 }
@@ -114,7 +118,9 @@ header {
 .description-container h3 {
   margin-bottom: 50px;
 }
+/* Description container */
 
+/* Taste container */
 .taste-container {
   padding-top: 50px;
   border-radius: 0% 0% 50% 50% / 0% 0% 2% 2%;
@@ -146,7 +152,9 @@ header {
 .taste-btn:hover {
   background-color: #c02e44;
 }
+/* Taste container */
 
+/* Comments container */
 .comments-container {
   padding-top: 100px;
 }
@@ -167,8 +175,187 @@ header {
 .comments {
   line-height: 19px;
 }
+/* Comments container */
 
+/* Meet container */
+.meet-container {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  border-radius: 0% 0% 40% 40% / 0% 0% 20% 20%;
+}
+
+.meet-flower {
+  padding-top: 30px;
+}
+
+.meet-description {
+  padding-top: 150px;
+}
+
+.meet-description p {
+  line-height: 24px;
+}
+/* Meet container */
+
+/* Team container */
+.team-container {
+  padding-top: 60px;
+}
+
+.team-title {
+  padding-bottom: 20px;
+}
+
+.leaf-team {
+  padding-top: 110px;
+  transform: translate(-30px, 10px);
+}
+/* Team container */
+
+/* Contact container */
+.contact-container {
+  padding-top: 75px;
+}
+
+.contact-leaf {
+  transform: translate(120px, -20px);
+}
+
+.contact-form label {
+  font-size: 20px;
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"] {
+  background-color: white;
+  border-radius: 8px;
+  height: 70px;
+}
+
+.wpcf7 textarea {
+  background-color: white;
+  border-radius: 8px;
+  height: 235px;
+}
+
+.btn-form-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.wpcf7-spinner {
+  display: none;
+}
+
+.wpcf7 input[type="submit"] {
+  background-color: #e0b9b4;
+  border-radius: 7px;
+  width: 200px;
+  height: 55px;
+}
+
+.wpcf7 input[type="submit"]:hover {
+  background-color: #c02e44;
+}
+
+.wp-block-image {
+  margin: 0;
+}
+/* Contact container */
+
+/* Order container */
+.order-background {
+  background-color: #3b8e46;
+  width: 100%;
+}
+
+.order-container {
+  width: 860px;
+  margin: 0 auto !important;
+  padding-top: 70px;
+}
+
+.order-container h4 {
+  padding-bottom: 30px;
+}
+
+.order-container p {
+  margin: 0;
+}
+
+.order-separator-horizontal {
+  width: 860px !important;
+  height: 1px !important;
+}
+
+.order-text {
+  padding-bottom: 35px;
+}
+
+.order-items-container {
+  justify-content: space-between !important;
+}
+
+.order-taste-img {
+  align-items: center;
+  width: 190px;
+}
+
+.order-taste-quantity {
+  background-color: white;
+  padding: 15px;
+}
+
+.order-background2 {
+  background-color: #3b8e46;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.order-form-container {
+  display: flex;
+  justify-content: space-between;
+  width: 860px;
+  padding-top: 30px;
+}
+
+.order-form-container label,
+h4 {
+  color: white;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.order-form-container h4 {
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"] {
+  width: 380px;
+  margin-bottom: 30px;
+}
+
+.vertical-separator {
+  width: 1px;
+  height: 420px;
+  background-color: white;
+}
+
+.btn-order-form {
+  text-align: center;
+}
+/* Order container */
+
+/* Footer */
 footer {
   display: flex;
   justify-content: center;
 }
+/* Footer */
+
+/* Mediaqueries */
+
+/* Mediaqueries */

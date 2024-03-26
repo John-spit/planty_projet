@@ -14,8 +14,6 @@
 
 	<?php wp_head(); ?>
 </head>
-
-<body>
 	<header>
 		<a class="link-logo" href="/"><img class="logo-header" src="http://planty.local/wp-content/themes/Planty_child/img/Logo fond blanc.png" alt="Logo planty"></a>
 		
@@ -28,5 +26,5 @@
     ]);
     ?>
 	</header>
-</body>
+
 
